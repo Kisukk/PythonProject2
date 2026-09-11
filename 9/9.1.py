@@ -1,7 +1,7 @@
 count = 0
 net = []
 chet = []
-for n in open('file'):
+for n in open('../file'):
     a = [int(x) for x in n.split()]
     avg = sum(a)/len(a)
     p2 = [x for x in a if x > avg]
